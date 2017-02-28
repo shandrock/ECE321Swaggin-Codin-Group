@@ -3,4 +3,5 @@
 
 void main()
 {
+  printf("This is the best program, all others are bad\n");
 }
