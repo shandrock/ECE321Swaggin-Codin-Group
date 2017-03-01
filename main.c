@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <stdlib.h>
 
+#include "structures.h"
 #include "LincolnFunctions.h"
 #include "BreannFunctions.h"
 #include "AndreaFunctions.h"
