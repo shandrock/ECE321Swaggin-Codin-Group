@@ -27,6 +27,7 @@ void main()
         
       case '2' :
         printf("Run Function 2\n"); \\Logout, save, and exit
+        program = 0;
         break;
         
       case '3' :
@@ -68,6 +69,9 @@ void main()
       case 'C' :
         printf("Run Function C\n"); \\Edit exam timetable (Faculty)
         break;
+        
+      default :
+        printf("Invalid input\n");
         
   }
 }
