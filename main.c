@@ -13,7 +13,13 @@ void main()
 	int num = 3;
 	int z = run(num); // This will set z to be num + 5, since the run fuction adds five to whatever number it is passed
 	char input;
-	int program = 1;
+	int program = 0;
+	
+	while(program == 0)
+	{
+		printf("Login Function\n");
+	}
+	
 
 	while (program == 1)
 	{
@@ -24,7 +30,7 @@ void main()
 		switch (input) {
 
 		case '1':
-			printf("Run Function 1\n"); //Login
+			printf("Run Function 1\n"); 
 			break;
 
 		case '2':
